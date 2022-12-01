@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Portfolio - IB</title>
+        <meta name="viewport" content="width=device-width, user-scalable=0"/>
+
+        <link rel="shortcut icon" href="assets/imgs/logo.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/styleSobreMim.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+    </head>
+
+    <body>
+        <header>
+            <div class="container header">
+                <div class="menu">
+                    <ul>
+                        <li><a onclick="traduzirPt()"> <img id="pt" src="assets/imgs/ptbr.jpg" height="20px"></a></li>
+                        <li><a onclick="traduzirEn()"> <img id="en" src="assets/imgs/ingles.jpg" height="20px"></a></li>
+                        
+                        <li><a href="./index.html"><img src="assets/imgs/home.png" height="20px"><p id="home"> HOME </p></a></li>
+                        <li><a href="./sobreMim.html"><img src="assets/imgs/sobre.png" height="20px"><p id="sobre"> SOBRE </p></a></li>
+                        <li><a href="./contato.html"><img src="assets/imgs/contato.png" height="20px"><p id="contato"> CONTATO </p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-mobile">
+                <div class="menu">
+                    <ul>
+                        <li><a href="./index.html"> <img src="assets/imgs/home.png" height="20px"></a></li>
+                        <li><a href="./sobreMim.html"> <img src="assets/imgs/sobre.png"  height="20px"></a></li>
+                        <li><a href="./contato.html"> <img src="assets/imgs/contato.png"  height="20px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="container sobre" id="sobre">
+                    <div class="sobreupper">
+                        <div class="left">
+                            <h2 id="tituloSobreMim">SOBRE MIM</h2>
+                            <div class="entalhe"></div>
+                            <p id="textoSobreMim"> Meu nome é Giovanni Ota Corradini. Sou natural de São Paulo, onde atualmente resido.
+                                Tenho 21 anos e estou no ultimo ano do curso de Sistemas de Informação na 
+                                Universidade São Judas Tadeu.
+                            </p>
+                            <br>
+                            <p id="textoSobreMim2">
+                                Atualmente, trabalho como Trainee Java na SIS Consultoria, atuando em um projeto
+                                da Bradesco Seguros e faço alguns projetos pessoais para estudo.
+                            </p>
+                        </div>
+                        <div class="right">
+                            <h2 id="tituloTecnologias">Tecnologias</h2>
+                            <h4 id="textoTecnologias">que já trabalhei</h4>
+                            <div class="entalhe"></div>
+
+                            <ul>
+                                <li>Java 6+</li>
+                                <li>JavaScript</li>
+                                <li>Angular</li>
+                                <li>SpringBoot Framework</li>
+                                <li>Vue.js</li>
+                                <li>Python</li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="sobrelower">
+                            <div class="lang">
+                                <img src="assets/imgs/ptbr.jpg" height="50px">
+                                <h2 id="fluenciaPt">Fluente</h2>
+                            </div>
+                            <div class="lang">
+                                <img src="assets/imgs/ingles.jpg" height="50px">
+                                <h2 id="fluenciaEn">Intermediário</h2>
+                            </div>
+                            <div class="lang">
+                                <img src="assets/imgs/espanhol.png" height="50px">
+                                <h2 id="fluenciaEs">Básico</h2>
+                            </div>
+                    </div>
+                </div>
+            </section>
+        </main>
+        <script src="./assets/js/traducaoSobreMim.js"></script>
+    </body>
+</html>

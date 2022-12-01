@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Portfolio - IB</title>
+    <meta name="viewport" content="width=device-width, user-scalable=0" />
+
+    <link rel="shortcut icon" href="assets/imgs/logo.png">
+    <link rel="stylesheet" type="text/css" href="./assets/css/styleContato.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="container header">
+            <div class="menu">
+                <ul>
+                    <li><a onclick="traduzirPt()"> <img id="pt" src="assets/imgs/ptbr.jpg" height="20px"></a></li>
+                    <li><a onclick="traduzirEn()"> <img id="en" src="assets/imgs/ingles.jpg" height="20px"></a></li>
+                        
+                    <li><a href="./index.html"> <img src="assets/imgs/home.png" height="20px"><p id="home">  HOME </p></a></li>
+                    <li><a href="./sobreMim.html"> <img src="assets/imgs/sobre.png" height="20px"><p id="sobre">  SOBRE </p></a></li>
+                    <li><a href="./contato.html"> <img src="assets/imgs/contato.png" height="20px"><p id="contato">  CONTATO </p></a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="menu-mobile">
+            <div class="menu">
+                <ul>
+                    <li><a href="./index.html"><img src="assets/imgs/home.png" height="20px"></a></li>
+                    <li><a href="./sobreMim.html"><img src="assets/imgs/sobre.png" height="20px"></a></li>
+                    <li><a href="./contato.html"><img src="assets/imgs/contato.png" height="20px"></a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section>
+            <div class="container contato" id="contato">
+                <div class="upper">
+                    <h2 id="tituloContato">CONTATO</h2>
+                    <div class="entalhe"></div>
+                </div>
+                <div class="contatolower">
+                    <div class="leftUpper">
+                        <div class="contatos">
+                            <ul>
+                                <li> 
+                                    <img id="telImg" src="assets/imgs/tel.svg" height="30px">
+                                    <p>+55 (14) 99145-3202</p>
+                                </li>
+                                <li> 
+                                    <img id="mailImg" src="assets/imgs/mail.svg" height="30px">
+                                    <p>giovanni_ota@hotmail.com</p>
+                                </li>
+                                <li> 
+                                    <img id="gitHubImg" src="assets/imgs/github1.svg" height="30px"> 
+                                    <a href="https://github.com/Otinha"> https://github.com/Otinha</a>
+                                </li>
+                                <li> 
+                                    <img id="linkedinImg" src="assets/imgs/linkedin.svg" height="30px"> 
+                                    <a href="https://www.linkedin.com/in/giovanni-ota-corradini-50a70219a/">https://www.linkedin.com/in/giovanni-ota-corradini</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="formContato">
+                            <form id="form"name="meu_form">
+                                <h2 id="tituloFom">Ou entre em contato por aqui</h2>
+
+                                <label class="labelInput" id="labelEmail" for="email">Email :</label>
+                                <input class="input" id="email" name="email"/>
+
+                                <label class="labelInput" id="labelMensagem" for="mensagem">Mensagem :</label>
+                                <textarea id="mensagem" class="input" name="mensagem"></textarea>
+                              
+                                <input type="submit" id="enviar" class="enviar" onclick="enviarForm()" value="Enviar" />
+                              </form>
+                        </div>
+                    </div>
+
+                    <div class="right-img">
+                        <img id="imgContato" src="assets/imgs/Img-portfolio.png">
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script src="./assets/js/contato.js"></script>
+    <script src="./assets/js/traducaoContato.js"></script>
+</body>
+</html>

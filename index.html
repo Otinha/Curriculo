@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>Portfolio - IB</title>
+        <meta name="viewport" content="width=device-width, user-scalable=0"/>
+
+        <link rel="shortcut icon" href="assets/imgs/logo.png">
+        <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@300&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@800&display=swap" rel="stylesheet">
+        
+        <script crossorigin="anonymous"  src="https://unpkg.com/typeit@8.7.0/dist/index.umd.js" defer></script>
+        <script src="./assets/js/animacao.js"></script>
+    </head>
+
+    <body>
+        <header>
+            <div class="container header">
+                <div class="menu">
+                    <ul>
+                        <li><a onclick="traduzirPt()"> <img id="pt" src="assets/imgs/ptbr.jpg" height="20px"></a></li>
+                        <li><a onclick="traduzirEn()"> <img id="en" src="assets/imgs/ingles.jpg" height="20px"></a></li>
+
+                        <li><a href="./index.html"><img src="assets/imgs/home.png" height="20px"><p id="homeNav"> HOME </p></a></li>
+                        <li><a href="./sobreMim.html"><img src="assets/imgs/sobre.png" height="20px"><p id="sobreNav"> SOBRE </p></a></li>
+                        <li><a href="./contato.html"><img src="assets/imgs/contato.png" height="20px"><p id="contatoNav"> CONTATO </p></a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="menu-mobile">
+                <div class="menu">
+                    <ul>
+                        <li><a href="./index.html"> <img src="assets/imgs/home.png" height="20px"></a></li>
+                        <li><a href="./sobreMim.html"> <img src="assets/imgs/sobre.png"  height="20px"></a></li>
+                        <li><a href="#contato"> <img src="assets/imgs/contato.png"  height="20px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <main>
+            <section>
+                <div class="container banner" id="home">
+                    <div class="imgbanner"> </div>
+                    <h2>  • Giovanni Ota Corradini • </h2>
+                    <p class="content-main-write-paragraph"><span class="animated"></span></p>
+                </div>
+            </section>
+        </main>
+        <footer>
+            <div class="container footer">
+                <p>Todos os direitos reservados.</p>
+            </div>
+        </footer>
+        <script src="./assets/js/traducaoIndex.js"></script>
+    </body>
+</html>
