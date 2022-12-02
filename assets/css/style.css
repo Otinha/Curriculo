@@ -87,7 +87,7 @@ a{
 .banner{
     height: 92vh;
     width: 100%;
-    background-image: url(/assets/imgs/bg.jpg);
+    background-image: url(../imgs/bg.jpg);
     background-size: cover;
     background-position: bottom;
     display: flex;
@@ -101,7 +101,7 @@ a{
     height: 250px;
     width: 250px;
     border-radius: 125px;
-    background-image: url(/assets/imgs/minhaimg.jpeg);
+    background-image: url(../imgs/minhaImg.jpeg);
     background-size: cover;
     background-position: bottom;
     box-shadow: 0 0 30px #000;
